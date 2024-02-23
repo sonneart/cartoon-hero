@@ -72,4 +72,5 @@ h2 {
     background-color: white;
     margin: 0px 310px 0px 310px;
     border-radius: 5px;
+    max-width: 310px;
 }
