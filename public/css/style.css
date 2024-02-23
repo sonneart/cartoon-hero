@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
 
+html {
+    margin: 0;
+    height: 100%;
+}
+
 body {
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: rgb(29, 36, 44);
-    min-width: 800px;
+    background-image: url("../img/FilikosAction2small.png");
+    background-attachment: fixed;
+    min-width: 1000px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 100%;
 }
 
 img {
@@ -58,7 +68,7 @@ header {
     border-radius: 5px;
 }
 
-div {
+.divmargin {
     padding: 2em;
     margin: 0.5em;
 }
@@ -79,5 +89,10 @@ h2 {
 footer {
     color: white;
     text-align: center;
+    margin: 0;
 
+}
+
+.gradient {
+    background: linear-gradient(180deg, rgba(41, 0, 0, 0) 0%, rgb(70, 5, 5) 100%);
 }
