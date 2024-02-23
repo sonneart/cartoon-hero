@@ -70,7 +70,14 @@ h2 {
 
 .headerbg {
     background-color: white;
-    margin: 0px 310px 0px 310px;
     border-radius: 5px;
-    max-width: 310px;
+    width: fit-content;
+    margin: auto;
+    padding: 0 10px 0 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+
 }
